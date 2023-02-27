@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Debuting Associate Form</title>
+	<link rel="stylesheet" type="text/css" href="da.css">
+	
+</head>
+<body>
+	<form id="debuting-associate-form" method="post" action="submit-form.php">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required>
+
+		<label for="division">Div:</label>
+		<input type="text" id="division" name="division" required>
+
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" required>
+
+		<label for="rollno">Roll No:</label>
+		<input type="text" id="rollno" name="rollno" required>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+
+		<label for="fees-paid">Fees Paid:</label>
+         <select id="fees-paid" name="fees-paid" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+
+		<label for="semester1">Semester I Document:</label>
+		<input type="file" id="semester1" name="semester1" accept=".doc,.docx,.pdf" required>
+
+		<label for="semester2">Semester II Document:</label>
+		<input type="file" id="semester2" name="semester2" accept=".doc,.docx,.pdf" required>
+
+		<label for="semester3">Semester III Document:</label>
+		<input type="file" id="semester3" name="semester3" accept=".doc,.docx,.pdf" required>
+
+		<label for="semester4">Semester IV Document:</label>
+		<input type="file" id="semester4" name="semester4" accept=".doc,.docx,.pdf" required>
+
+		<label for="birth-certificate">Birth Certificate:</label>
+		<input type="file" id="birth-certificate" name="birth-certificate" accept=".doc,.docx,.pdf,.jpg,.jpeg,.png" required>
+
+		<label for="fees-receipt">Fees Receipt:</label>
+		<input type="file" id="fees-receipt" name="fees-receipt" accept=".doc,.docx,.pdf,.jpg,.jpeg,.png" required>
+
+		<label for="id-card">Identity Card:</label>
+		<input type="file" id="id-card" name="id-card" accept=".doc,.docx,.pdf,.jpg,.jpeg,.png" required>
+
+		<input type="submit" value="Submit">
+	</form>
+    <script src="da.js"></script>
+</body>
+</html>
+
+

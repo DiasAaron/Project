@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Association Form</title>
+	<link rel="stylesheet" type="text/css" href="la.css">
+</head>
+<body>
+	<form action="" method="POST" onsubmit="return validateForm()">
+		<h2>Library Association Form</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required>
+
+		<label for="div">Division:</label>
+		<input type="text" id="div" name="div" required>
+
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" required>
+
+		<label for="rollno">Roll No:</label>
+		<input type="text" id="rollno" name="rollno" required>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+
+		<label for="fees-paid">Fees Paid:</label>
+         <select id="fees-paid" name="fees-paid" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+
+		<label for="semester1doc">Semester I Document:</label>
+		<input type="file" id="semester1doc" name="semester1doc" accept=".pdf,.doc,.docx">
+
+		<label for="semester2doc">Semester II Document:</label>
+		<input type="file" id="semester2doc" name="semester2doc" accept=".pdf,.doc,.docx">
+
+		<label for="semester3doc">Semester III Document:</label>
+		<input type="file" id="semester3doc" name="semester3doc" accept=".pdf,.doc,.docx">
+
+		<label for="semester4doc">Semester IV Document:</label>
+		<input type="file" id="semester4doc" name="semester4doc" accept=".pdf,.doc,.docx">
+
+		<label for="birthcert">Birth Certificate:</label>
+		<input type="file" id="birthcert" name="birthcert" accept=".pdf,.jpg,.jpeg,.png">
+
+		<label for="feesreceipt">Fees Receipt:</label>
+		<input type="file" id="feesreceipt" name="feesreceipt" accept=".pdf,.jpg,.jpeg,.png">
+
+		<label for="idcard">Identity Card:</label>
+		<input type="file" id="idcard" name="idcard" accept=".pdf,.jpg,.jpeg,.png">
+
+		<button type="submit">Next</button>
+	</form>
+
+	<script src="la.js"></script>
+</body>
+</html>

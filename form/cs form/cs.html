@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cultural Secretary Form</title>
+	<link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+	<h1>Cultural Secretary Form</h1>
+	<form method="post" action="" onsubmit="return validateForm()">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required>
+		<label for="div">Division:</label>
+		<input type="text" id="div" name="div" required>
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" required>
+		<label for="rollno">Roll No:</label>
+		<input type="text" id="rollno" name="rollno" required>
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+		<label for="fees-paid">Fees Paid:</label>
+         <select id="fees-paid" name="fees-paid" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+		<br><br>
+		<label for="sem1">Semester I:</label>
+		<input type="file" id="sem1" name="sem1" accept="image/*,.pdf" required>
+		<label for="sem2">Semester II:</label>
+		<input type="file" id="sem2" name="sem2" accept="image/*,.pdf" required>
+		<label for="sem3">Semester III:</label>
+		<input type="file" id="sem3" name="sem3" accept="image/*,.pdf" required>
+		<label for="sem4">Semester IV:</label>
+		<input type="file" id="sem4" name="sem4" accept="image/*,.pdf" required>
+		<label for="birthcert">Birth Certificate:</label>
+		<input type="file" id="birthcert" name="birthcert" accept="image/*,.pdf" required>
+		<label for="feesreceipt">Fees Receipt:</label>
+		<input type="file" id="feesreceipt" name="feesreceipt" accept="image/*,.pdf" required>
+		<label for="idcard">Identity Card:</label>
+		<input type="file" id="idcard" name="idcard" accept="image/*,.pdf" required>
+		<br><br>
+		<button type="submit">Next</button>
+	</form>
+
+	<script src="cs.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Form styles */
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="date"], input[type="file"] {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button[type="submit"]:hover {
+  background-color: #3E8E41;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff0000;
+  font-size: 0.8em;
+  margin-top: 5px;
+}

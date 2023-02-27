@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sport Secretary Form</title>
+	<link rel="stylesheet" type="text/css" href="ss.css">
+	
+</head>
+<body>
+	<h1>Sport Secretary Form</h1>
+	<form id="sport-form" onsubmit="return validateForm()">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required>
+
+		<label for="div">Division:</label>
+		<input type="text" id="div" name="div" required>
+
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" required>
+
+		<label for="rollno">Roll No:</label>
+		<input type="text" id="rollno" name="rollno" required>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+
+		<label for="fees-paid">Fees Paid:</label>
+         <select id="fees-paid" name="fees-paid" required>
+            <option value="">Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+         </select>
+
+		<label for="sem1">Semester I:</label>
+		<input type="file" id="sem1" name="sem1" required>
+
+		<label for="sem2">Semester II:</label>
+		<input type="file" id="sem2" name="sem2" required>
+
+		<label for="sem3">Semester III:</label>
+		<input type="file" id="sem3" name="sem3" required>
+
+		<label for="sem4">Semester IV:</label>
+		<input type="file" id="sem4" name="sem4" required>
+
+		<label for="birth-cert">Birth Certificate:</label>
+		<input type="file" id="birth-cert" name="birth-cert" required>
+
+		<label for="fees-receipt">Fees Receipt:</label>
+		<input type="file" id="fees-receipt" name="fees-receipt" required>
+
+		<label for="id-card">Identity Card:</label>
+		<input type="file" id="id-card" name="id-card" required>
+
+		<input type="submit" value="Next">
+	</form>
+    <script src="ss.js"></script>
+</body>
+</html>

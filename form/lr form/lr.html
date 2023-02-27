@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ladies Representative Form</title>
+	<link rel="stylesheet" type="text/css" href="lr.css">
+	
+</head>
+<body>
+	<h1>Ladies Representative Form</h1>
+	<form name="repForm" onsubmit="return validateForm()" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="class">Class:</label>
+		<input type="text" id="class" name="class" required>
+
+		<label for="div">Div:</label>
+		<input type="text" id="div" name="div" required>
+
+		<label for="semester">Semester:</label>
+		<input type="text" id="semester" name="semester" required>
+
+		<label for="rollno">Roll No:</label>
+		<input type="text" id="rollno" name="rollno" required>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob" required>
+
+		<label for="feespaid">Fees Paid:</label>
+		<select id="feespaid" name="feespaid" required>
+			<option value="" disabled selected>Select an option</option>
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</select>
+
+		<label for="doc1">Attach Document Semester I:</label>
+		<input type="file" id="doc1" name="doc1" required>
+
+		<label for="doc2">Attach Document Semester II:</label>
+		<input type="file" id="doc2" name="doc2" required>
+
+		<label for="doc3">Attach Document Semester III:</label>
+		<input type="file" id="doc3" name="doc3" required>
+
+		<label for="doc4">Attach Document Semester IV:</label>
+		<input type="file" id="doc4" name="doc4" required>
+
+		<label for="birthcert">Birth Certificate:</label>
+		<input type="file" id="birthcert" name="birthcert" required>
+
+		<label for="feesreceipt">Fees Receipt:</label>
+		<input type="file" id="feesreceipt" name="feesreceipt" required>
+
+		<label for="idcard">Identity Card:</label>
+		<input type="file" id="idcard" name="idcard" required>
+
+		<input type="submit" value="Next">
+	</form>
+    <script src="lr.js"></script>
+</body>
+</html>
